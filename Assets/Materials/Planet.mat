@@ -94,11 +94,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Height: 0.39
-    - Null: 1.43
+    - Height: 0.65
+    - Null: 1.42
     - Scale: 16.1
     - Strength: 0.67
-    - Water_Level: -0.0099
+    - Water_Level: 0.92
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -128,10 +128,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Layer0: {r: 9.56, g: 0.52, b: 0, a: 0}
-    - Layer1: {r: 21.3, g: -0.87, b: 0, a: 0}
-    - Layer2: {r: 1.74, g: 0.84, b: 0, a: 0}
-    - Layer3: {r: 0.53, g: -0.9, b: 0, a: 0}
+    - Layer0: {r: 13.47, g: 3.04, b: 0, a: 0}
+    - Layer1: {r: 8.44, g: -0.95, b: 0, a: 0}
+    - Layer2: {r: 45.07, g: 0.36, b: 0, a: 0}
+    - Layer3: {r: 153.92, g: -0.5, b: 0, a: 0}
     - Layer4: {r: 0, g: 0, b: 0, a: 0}
     - Layer5: {r: 0, g: 0, b: 0, a: 0}
     - Layer6: {r: 0, g: 0, b: 0, a: 0}
