@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
-  m_Name: URPPipeline
+  m_Name: UniversalRP
   m_EditorClassIdentifier: 
   k_AssetVersion: 9
   k_AssetPreviousVersion: 9
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
-  - {fileID: 11400000, guid: 5f140190b71f50744b3c70718dfae312, type: 2}
+  - {fileID: 11400000, guid: 4a8e21d5c33334b11b34a596161b9360, type: 2}
   m_DefaultRendererIndex: 0
-  m_RequireDepthTexture: 0
-  m_RequireOpaqueTexture: 0
-  m_OpaqueDownsampling: 1
+  m_RequireDepthTexture: 1
+  m_RequireOpaqueTexture: 1
+  m_OpaqueDownsampling: 3
   m_SupportsTerrainHoles: 1
-  m_SupportsHDR: 0
-  m_MSAA: 4
+  m_SupportsHDR: 1
+  m_MSAA: 8
   m_RenderScale: 1
   m_MainLightRenderingMode: 1
   m_MainLightShadowsSupported: 1
   m_MainLightShadowmapResolution: 2048
   m_AdditionalLightsRenderingMode: 1
-  m_AdditionalLightsPerObjectLimit: 4
+  m_AdditionalLightsPerObjectLimit: 7
   m_AdditionalLightShadowsSupported: 1
   m_AdditionalLightsShadowmapResolution: 512
   m_AdditionalLightsShadowResolutionTierLow: 128
   m_AdditionalLightsShadowResolutionTierMedium: 256
   m_AdditionalLightsShadowResolutionTierHigh: 512
-  m_ShadowDistance: 65
-  m_ShadowCascadeCount: 2
-  m_Cascade2Split: 0.46
+  m_ShadowDistance: 627
+  m_ShadowCascadeCount: 4
+  m_Cascade2Split: 0.36688316
   m_Cascade3Split: {x: 0.1, y: 0.3}
-  m_Cascade4Split: {x: 0.17384616, y: 0.3430769, z: 0.6492308}
-  m_ShadowDepthBias: 3.38
-  m_ShadowNormalBias: 4.39
+  m_Cascade4Split: {x: 0.14940594, y: 0.3462546, z: 0.7019869}
+  m_ShadowDepthBias: 1.5
+  m_ShadowNormalBias: 2
   m_SoftShadowsSupported: 1
   m_UseSRPBatcher: 1
-  m_SupportsDynamicBatching: 1
+  m_SupportsDynamicBatching: 0
   m_MixedLightingSupported: 1
   m_DebugLevel: 0
   m_UseAdaptivePerformance: 1
@@ -53,9 +53,9 @@ MonoBehaviour:
   m_ColorGradingLutSize: 32
   m_UseFastSRGBLinearConversion: 0
   m_ShadowType: 1
-  m_LocalShadowsSupported: 1
-  m_LocalShadowsAtlasResolution: 512
-  m_MaxPixelLights: 4
-  m_ShadowAtlasResolution: 2048
+  m_LocalShadowsSupported: 0
+  m_LocalShadowsAtlasResolution: 256
+  m_MaxPixelLights: 0
+  m_ShadowAtlasResolution: 256
   m_ShaderVariantLogLevel: 0
   m_ShadowCascades: 2
